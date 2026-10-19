@@ -26,6 +26,12 @@ nav a { margin-right: 16px;
 main { 
     padding: 20px;
 }
+#box-model {
+    padding: 24px;
+    margin: 20px 0;
+    border: 3px solid #164b82;
+
+}
 .panel {
     background: #eef6fc;
     padding: 16px;
