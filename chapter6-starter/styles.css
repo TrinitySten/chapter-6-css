@@ -1,0 +1,14 @@
+/* Chapter 6 starter: edit the rules below and add your own. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #183046; background: #e9f1f5; }
+.page-wrapper { width: 90%; margin: 0 auto; background: white; }
+.site-header { background: #164b82; color: white; padding: 24px; }
+nav { padding: 16px 24px; background: #dcecf5; }
+nav a { margin-right: 16px; color: #164b82; }
+main { padding: 20px; }
+.panel { background: #eef6fc; padding: 16px; }
+.feature { background-image: url("assets/landscape.svg"); background-size: cover; background-position: center; min-height: 240px; padding: 24px; color: white; }
+.feature-content { background-color: rgba(8, 29, 49, .72); padding: 16px; }
+.cards { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }
+.card { flex: 1 1 220px; padding: 16px; background: #fff; border: 1px solid #b2cad7; }
+footer { padding: 18px 24px; background: #164b82; color: white; }
