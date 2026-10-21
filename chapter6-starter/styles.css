@@ -50,9 +50,14 @@ main {
     color: white;
 }
 .feature-content {
-    background-color: rgba(8, 29, 49, .72);
     min-height: 260px;
     padding: 16px;
+}
+.feature-content h2 {
+        background-color: rgba(8, 29, 49, .72);
+}
+.feature-content p {
+        background-color: rgba(8, 29, 49, .72);
 }
 .cards {
     display: flex;
