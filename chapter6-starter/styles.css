@@ -16,6 +16,7 @@ body {
 .site-header {
     background: #164b82;
     color: white;
+    text-shadow: 2px 2px 3px #b2cad7;
     padding: 24px; }
 nav { 
     padding: 16px 24px;
@@ -61,6 +62,7 @@ main {
     padding: 16px;
     background: #fff;
     border: 1px solid #b2cad7;
+    box-shadow: 5px 5px 10px  #164b82;
 }
 .card-border {
     border: 5px dashed #b2cad7;
