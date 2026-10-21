@@ -1,0 +1,80 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background: #0A0F0D;
+    background-image: url("chapter6-starter/assets/stars-10.gif");
+}
+.page-wrapper {
+    width: 90%;
+    max-width: 950px;
+    margin: 0 auto;
+    background: #0A0F0D;
+    border: 5px solid white;
+    box-shadow: 0 0 10px white;
+}
+.site-header {
+    background-color: #0A0F0D;
+    padding: 15px;
+}
+.site-header h1 {
+    text-shadow: 0 3px 10px #73b5ea;
+    font-size: 38px;
+    color: white;
+}
+p {
+    color: #C4CBCA
+}
+nav {
+    background-color: #0A0F0D;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+nav a {
+    color: #73b5ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 15px;
+}
+#box-model {
+    padding: 24px;
+    margin: 20px 0;
+    border: 2px solid white;
+}
+.panel {
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+.feature {
+    background-image: url("chapter6-starter/assets/pattern-171.gif");
+    background-size: contain;
+    background-position: center;
+    min-height: 240px;
+    padding: 24px;
+    color: white;
+    border: 2px solid white;
+}
+.feature-content {
+    min-height: 260px;
+    padding: 16px;
+}
+.cards {
+    display: flex;
+    gap: 18px;
+    margin-top: 28px;
+}
+.card {
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 5px;
+}
