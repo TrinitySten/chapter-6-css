@@ -29,6 +29,9 @@ body {
 p {
     color: #C4CBCA
 }
+h2 {
+    font-size: 28px;
+}
 nav {
     background-color: #0A0F0D;
     padding: 15px;
@@ -49,32 +52,42 @@ main {
     padding: 24px;
     margin: 20px 0;
     border: 2px solid white;
+    border-radius: 50px;
 }
 .panel {
     background-size: contain;
     background-position: center;
-    text-align: center;
 }
 .feature {
-    background-image: url("chapter6-starter/assets/pattern-171.gif");
+    background-image: url("chapter6-starter/assets/stars-10.gif");
     background-size: contain;
     background-position: center;
     min-height: 240px;
     padding: 24px;
     color: white;
     border: 2px solid white;
+    border-radius: 50px;
+    
 }
 .feature-content {
+    background-color: rgba(10, 15, 13, 0.72);
     min-height: 260px;
     padding: 16px;
 }
+.feature-content h2 {
+    text-shadow: 0 3px 10px #73b5ea;
+}
 .cards {
     display: flex;
+    flex-direction: row;
     gap: 18px;
-    margin-top: 28px;
+    margin-top: 22px;
 }
 .card {
+    flex: 1 1 220px;
+    padding: 16px;
+    background: #0A0F0D;
     border: 2px solid white;
-    border-radius: 100px;
-    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px  #C4CBCA;
 }
