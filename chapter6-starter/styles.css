@@ -30,6 +30,7 @@ nav a { margin-right: 16px;
 }
 main { 
     padding: 20px;
+    opacity: .6;
 }
 #box-model {
     padding: 24px;
@@ -47,10 +48,9 @@ main {
     background-position: center;
     min-height: 240px;
     padding: 24px;
-    color: white; 
+    color: white;
 }
 .feature-content {
-    background-color: rgba(8, 29, 49, .72);
     min-height: 260px;
     padding: 16px;
 }
