@@ -42,22 +42,35 @@ main {
     background-position: center;
     min-height: 240px;
     padding: 24px;
-    color: white; }
+    color: white; 
+}
 .feature-content {
     background-color: rgba(8, 29, 49, .72);
     min-height: 260px;
-    padding: 16px; }
+    padding: 16px;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
-    margin-top: 22px; }
+    margin-top: 22px;
+}
 .card {
     flex: 1 1 220px;
     padding: 16px;
     background: #fff;
-    border: 1px solid #b2cad7; }
+    border: 1px solid #b2cad7;
+}
+.card-border {
+    border: 5px dashed #b2cad7;
+    border-radius: 14px;
+}
+.card-2-border {
+    border: 5px solid #b2cad7;
+    border-radius: 14px;
+}
 footer {
     padding: 18px 24px;
     background: #164b82;
-    color: white; }
+    color: white;
+}
