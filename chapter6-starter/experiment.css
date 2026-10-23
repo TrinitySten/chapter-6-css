@@ -6,19 +6,20 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
-    background: #0A0F0D;
-    background-image: url("chapter6-starter/assets/stars-10.gif");
+    background: #000000;
+    background-image: url("assets/stars-10.gif");
+    background-size: auto;
 }
 .page-wrapper {
     width: 90%;
     max-width: 950px;
     margin: 0 auto;
-    background: #0A0F0D;
+    background: #000000;
     border: 5px solid white;
     box-shadow: 0 0 10px white;
 }
 .site-header {
-    background-color: #0A0F0D;
+    background-color: #000000;
     padding: 15px;
 }
 .site-header h1 {
@@ -27,13 +28,21 @@ body {
     color: white;
 }
 p {
-    color: #C4CBCA
+    color: #C4CBCA;
+    padding: 0 50px;
+    line-height: 2em;
+
 }
 h2 {
+    text-shadow: 0 3px 10px #73b5ea;
     font-size: 28px;
 }
+h3 {
+    color: rgb(231, 247, 249);
+    font-style: oblique;
+}
 nav {
-    background-color: #0A0F0D;
+    background-color: #000000;
     padding: 15px;
     display: flex;
     justify-content: space-around;
@@ -46,7 +55,7 @@ nav a {
     font-weight: bold;
 }
 main {
-    padding: 15px;
+    padding: 10px;
 }
 #box-model {
     padding: 24px;
@@ -55,11 +64,16 @@ main {
     border-radius: 50px;
 }
 .panel {
+    background-image: url("assets/stars-10.gif");
     background-size: contain;
     background-position: center;
 }
+.panel div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
 .feature {
-    background-image: url("chapter6-starter/assets/stars-10.gif");
+    background-image: url("assets/stars-1.gif");
     background-size: contain;
     background-position: center;
     min-height: 240px;
@@ -70,24 +84,27 @@ main {
     
 }
 .feature-content {
-    background-color: rgba(10, 15, 13, 0.72);
+    background-color: rgba(0, 0, 0, 0.72);
     min-height: 260px;
     padding: 16px;
 }
-.feature-content h2 {
-    text-shadow: 0 3px 10px #73b5ea;
-}
 .cards {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     gap: 18px;
     margin-top: 22px;
+    min-height: 390px;
 }
 .card {
     flex: 1 1 220px;
-    padding: 16px;
-    background: #0A0F0D;
+    padding: 15px 10px;
+    background: #000000;
     border: 2px solid white;
     border-radius: 50px;
     box-shadow: 0 2px 10px  #C4CBCA;
+    min-height: 390px
+}
+
+footer {
+    margin: 10px 0 10px 0;
 }
